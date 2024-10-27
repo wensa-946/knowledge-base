@@ -9,6 +9,8 @@ export default defineConfig({
   srcDir: "前端",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    outlineTitle: "知识点目录",
+    outline: [2, 3],
     nav,
     sidebar,
     search: {
@@ -38,6 +40,9 @@ export default defineConfig({
     ],
     footer: {
       copyright: "copyright @ 2024 wensa946"
-    }
+    },
+  },
+  markdown: {
+    lineNumbers: true
   }
 })
