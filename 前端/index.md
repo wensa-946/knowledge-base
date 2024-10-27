@@ -7,7 +7,7 @@ hero:
   text: "老文的前端知识库"
   tagline: 老文的前端知识库，让你一看一个不吱声😏
   image:
-    src: /home.png
+    src: /background.svg
     alt: wensa
   actions:
     - theme: brand

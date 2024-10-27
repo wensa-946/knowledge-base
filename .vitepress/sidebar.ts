@@ -1,11 +1,11 @@
 export default {
-  '/JavaScript/' : [{
-    "text": "JavaScript",
+  '/JS阶段/' : [{
+    "text": "JS阶段",
     items: [
-      { "text": "1.JS基础", link: "/JavaScript/1.JS基础" },
-      { "text": "2.JS进阶", link: "/JavaScript/2.JS进阶" },
-      { "text": "3.ES6", link: "/JavaScript/3.ES6" },
-      { "text": "4.TS", link: "/JavaScript/4.TS" },
+      { "text": "1.JS基础", link: "/JS阶段/1.JS基础" },
+      { "text": "2.JS进阶", link: "/JS阶段/2.JS进阶" },
+      { "text": "3.ES6", link: "/JS阶段/3.ES6" },
+      { "text": "4.TS", link: "/JS阶段/4.TS" },
     ]
   }]
 }

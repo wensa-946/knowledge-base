@@ -16,6 +16,9 @@ export default defineConfig({
         icon: 'github', 
         link: 'https://gitee.com/wensa946/knowledge-base.git' 
       }
-    ]
+    ],
+    footer: {
+      copyright: "copyright @ 2024 wensa946"
+    }
   }
 })
