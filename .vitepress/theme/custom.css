@@ -1,14 +1,14 @@
 /* var.css */
 :root {
-  --vp-c-brand-1: #18794e;
-  --vp-c-brand-2: #299764;
-  --vp-c-brand-3: #57B9FF;
+  --vp-c-brand-1: #2196F3;
+  --vp-c-brand-2: #2196F3;
+  --vp-c-brand-3: #42A5F5;
 }
 
 .dark {
-  --vp-c-brand-1: #3dd66b;
-  --vp-c-brand-2: #30a46c;
-  --vp-c-brand-3: #9665FE;
+  --vp-c-brand-1: #BA68C8;
+  --vp-c-brand-2: #AB47BC;
+  --vp-c-brand-3: #9C27B0;
 }
 /* 以前的vp-c-brand已弃用 */
 
