@@ -5,8 +5,8 @@ export default {
       items: [
         { "text": "1.JS基础", link: "/JS阶段/1.JS基础" },
         { "text": "2.JS进阶", link: "/JS阶段/2.JS进阶" },
-        { "text": "3.ES6", link: "/JS阶段/3.ES6" },
-        { "text": "4.TS", link: "/JS阶段/4.TS" },
+        { "text": "3.ES6", link: "/JS阶段/3.ES6合集" },
+        { "text": "4.TS", link: "/JS阶段/4.TS合集" },
       ]
     },
     // 为后续拆分 items 内容做准备
