@@ -42,8 +42,16 @@ export default defineConfig({
     footer: {
       copyright: "copyright @ 2024 wensa946"
     },
+    lastUpdated: {
+      text: '最后更新时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    }
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  
 })
