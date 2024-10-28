@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.svg",
     outlineTitle: "知识点目录",
-    outline: [2, 3],
+    outline: [3, 6],
     nav,
     // sidebar,
     search: {
