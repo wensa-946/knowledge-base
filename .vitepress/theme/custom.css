@@ -14,34 +14,31 @@
   --vp-c-brand-3: var(--primary-3);
 
   h2,
-  h3,
-  mark {
+  h3 {
     color: var(--primary-1);
   }
-  /* h4 {
-    color: var(--primary-2);
+  mark {
+    color: black;
+    /* background-color: #EFF0F3; */
+    background-color:  var(--primary-3);
   }
-  h5 {
-    color: var(--primary-3);
-  } */
 }
 
 .dark {
   --vp-c-brand-1: var(--primary-dark-3);
   --vp-c-brand-2: var(--primary-dark-2);
   --vp-c-brand-3: var(--primary-dark-1);
-
+  
   h2,
-  h3,
-  mark {
+  h3 {
     color: var(--primary-dark-1);
   }
-  /* h4 {
-    color: var(--primary-dark-2);
+  mark {
+    /* color: var(--primary-dark-1);
+    background-color: #272A2F; */
+    color: white;
+    background-color: var(--primary-dark-1);
   }
-  h5 {
-    color: var(--primary-dark-3);
-  } */
 }
 
 /* 以前的vp-c-brand已弃用 */

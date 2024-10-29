@@ -19,8 +19,8 @@ export default defineConfig({
       options: {
         translations: {
           button: {
-            buttonText: "搜索文档",
-            buttonAriaLabel: "搜索文档"
+            buttonText: "搜索知识",
+            buttonAriaLabel: "搜索知识"
           },
           modal: {
             noResultsText: "未找到相关结果",
@@ -40,7 +40,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      copyright: "copyright @ 2024 wensa946"
+      copyright: "knowledge-base @ 2024 wensa946"
     },
     lastUpdated: {
       text: '最后更新时间',
@@ -53,5 +53,4 @@ export default defineConfig({
   markdown: {
     lineNumbers: true
   },
-  
 })
