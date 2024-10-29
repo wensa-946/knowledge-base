@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import nav from './nav'
-// import sidebar from './sidebar'
+import sidebar from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -13,7 +13,7 @@ export default defineConfig({
     outlineTitle: "知识点目录",
     outline: [3, 6],
     nav,
-    // sidebar,
+    sidebar,
     search: {
       provider: "local",
       options: {

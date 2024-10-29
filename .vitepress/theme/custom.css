@@ -14,17 +14,13 @@
   --vp-c-brand-2: var(--primary-2);
   --vp-c-brand-3: var(--primary-3);
 
-  h1,h2,h3,h4,h5,h6 {
-    color: #EF5350;
-  }
   mark {
     background-color:  #FFEE58;
   }
-  /* ul {
-    list-style-type: none;
-  } */
+
   li {
-    color: #FF7043;
+    /* color: #FF7043; */
+    color: #EF5350;
   }
 }
 
@@ -33,14 +29,12 @@
   --vp-c-brand-2: var(--primary-dark-2);
   --vp-c-brand-3: var(--primary-dark-1);
   
-  h1,h2,h3,h4,h5,h6 {
-    color: #FF5252;
-  }
   mark {
     background-color: #FFFF00;
   }
   li {
-    color: #FF6E40;
+    /* color: #FF6E40; */
+    color: #FF5252;
   }
 }
 
