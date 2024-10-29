@@ -5,6 +5,7 @@
   --primary-dark-1: #9C27B0;
   --primary-dark-2: #AB47BC;
   --primary-dark-3: #BA68C8;
+  
 }
 
 /* var.css */
@@ -13,14 +14,17 @@
   --vp-c-brand-2: var(--primary-2);
   --vp-c-brand-3: var(--primary-3);
 
-  h2,
-  h3 {
-    color: var(--primary-1);
+  h1,h2,h3,h4,h5,h6 {
+    color: #EF5350;
   }
   mark {
-    color: black;
-    /* background-color: #EFF0F3; */
-    background-color:  var(--primary-3);
+    background-color:  #FFEE58;
+  }
+  /* ul {
+    list-style-type: none;
+  } */
+  li {
+    color: #FF7043;
   }
 }
 
@@ -29,15 +33,14 @@
   --vp-c-brand-2: var(--primary-dark-2);
   --vp-c-brand-3: var(--primary-dark-1);
   
-  h2,
-  h3 {
-    color: var(--primary-dark-1);
+  h1,h2,h3,h4,h5,h6 {
+    color: #FF5252;
   }
   mark {
-    /* color: var(--primary-dark-1);
-    background-color: #272A2F; */
-    color: white;
-    background-color: var(--primary-dark-1);
+    background-color: #FFFF00;
+  }
+  li {
+    color: #FF6E40;
   }
 }
 
