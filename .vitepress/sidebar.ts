@@ -35,4 +35,4 @@ export default {
       { text: "异步", link: "/JS阶段/JS进阶/异步" },
     ]
   }
-}
+} as any

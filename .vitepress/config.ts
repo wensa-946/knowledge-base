@@ -7,6 +7,7 @@ export default defineConfig({
   title: "knowledge-base",
   description: "wensa 的前端知识库",
   srcDir: "前端",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.svg",
@@ -40,13 +41,13 @@ export default defineConfig({
       }
     ],
     footer: {
-      copyright: "knowledge-base @ 2024 wensa946"
+      copyright: "knowledge-base | Copyright © 2024 wensa946"
     },
     lastUpdated: {
-      text: '最后更新时间',
+      text: '更新于',
       formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
+        dateStyle: 'short',   // 默认 short，full
+        timeStyle: 'medium'  // 默认 short，medium
       }
     }
   },
