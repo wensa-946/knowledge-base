@@ -327,7 +327,7 @@ firstTask((err, result) => {
   ::: details 代码示例
   ```js
   const co = require('co');
-  function generatorFunc() {
+  function* generatorFunc() {
     try {
       const result = yield doSomething();
       console.log(result);
