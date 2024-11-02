@@ -18,10 +18,6 @@
     background-color:  #FFEE58;
   }
 
-  li {
-    /* color: #FF7043; */
-    color: #EF5350;
-  }
 }
 
 .dark {
@@ -32,10 +28,7 @@
   mark {
     background-color: #FFFF00;
   }
-  li {
-    /* color: #FF6E40; */
-    color: #FF5252;
-  }
+
 }
 
 /* 以前的vp-c-brand已弃用 */
